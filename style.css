@@ -7,12 +7,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
 .hero {
     display: flex;
-    background-color: #1f2937;
+    background-color: #1a1a1b;
     justify-content: center;
     flex-flow: column;
     align-items: center;
@@ -28,7 +29,7 @@ body {
 }
 
 .header-logo {
-    color: #f9faf8;
+    color: #880808;
     font-weight: 700;
     font-family: 'Metal Mania', cursive;
 }
