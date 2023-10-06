@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+.hero-style {
+    display: flex;
+    /* gap: 6px; */
+    width: 80%;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #f9faf8;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.scroll-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+
+}
