@@ -17,14 +17,14 @@ body {
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .hero-style {
     display: flex;
     width: 80%;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 15px 0px;
     align-items: center;
 }
 
@@ -105,6 +105,7 @@ body {
     text-shadow: 2px 2px 4px rgb(202, 202, 202);
 }
 
+
 .h-heading h2:hover {
     color: darkred;
     text-shadow: 2px 2px 4px rgb(202, 202, 202);
@@ -113,12 +114,18 @@ body {
 .h-parag {
     text-align: start;
     font-size: 26px;
-    font-weight: 650;
+    font-weight: 450;
     color: rgb(255, 255, 255);
-    font-family: 'Metal', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h-parag p {
+    margin-top: 15px;
+    gap: 12px 0;
 }
 
 .h-button {
+    margin-top: 15px;
     background-color: #ffffff;
     padding: 10px 30px;
     border-radius: 10px;
@@ -154,8 +161,8 @@ body {
 .slide {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
-
+    padding: 20px 0;
+    margin-bottom: -20px;
 }
 
 .slide-show {
@@ -205,7 +212,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #000000;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .text {
