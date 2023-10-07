@@ -25,7 +25,6 @@ body {
     justify-content: space-between;
     padding: 20px 10px;
     align-items: center;
-    /* border: inset #880808; */
 }
 
 .header-logo {
@@ -46,7 +45,6 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
-    /* align-items: center; */
 }
 
 
@@ -170,7 +168,6 @@ body {
     margin-bottom: 50px;
     display: flex;
     gap: 20px;
-    /* flex-direction: row; */
 }
 
 .gallery .photo {
