@@ -12,7 +12,7 @@ body {
 
 .hero {
     display: flex;
-    background-color: #1a1a1b;
+    background-color: #000000;
     justify-content: center;
     flex-flow: column;
     align-items: center;
@@ -23,20 +23,44 @@ body {
     display: flex;
     width: 80%;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 10px;
     align-items: center;
+    /* border: inset #880808; */
 }
 
 .header-logo {
     color: #880808;
     font-size: 24px;
-    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.72);
+    text-shadow: 5px 5px 7px rgb(53, 53, 53);
     font-weight: 700;
     font-family: 'Metal Mania', cursive;
 }
 
+
+.header-logo h1:hover {
+    color: darkviolet;
+    text-shadow: 5px 5px 7px rgb(202, 202, 202);
+}
+
+.header-image {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+
+.header-image img {
+    border: solid #880808 2px;
+    padding: 5px;
+    border-radius: 25px;
+    flex: 0;
+    width: 35%;
+}
+
 .scroll-bar {
-    border: inset rgb(0, 0, 0) 3px;
+    border: inset rgb(255, 255, 255) 3px;
+    border-radius: 12px;
     display: flex;
     gap: 16px;
     font-weight: 400;
@@ -54,9 +78,9 @@ body {
     border: inset rgb(0, 0, 0) 0px;
     font-style: italic;
     font-weight: 600;
-    text-shadow: 2px 2px 3px darkred;
-    text-decoration: underline;
-    color: #000000;
+    text-shadow: 3px 3px 3px rgb(99, 0, 0);
+    text-decoration: none;
+    color: #880808;
 }
 
 .hero-cabin {
@@ -79,7 +103,12 @@ body {
     font-family: 'Metal Mania', cursive;
     font-weight: 800;
     color: darkviolet;
-    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.829);
+    text-shadow: 5px 5px 7px rgb(202, 202, 202);
+}
+
+.h-heading h2:hover {
+    color: darkred;
+    text-shadow: 5px 5px 7px rgb(202, 202, 202);
 }
 
 .h-parag {
@@ -91,26 +120,25 @@ body {
 }
 
 .h-button {
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 10px 30px;
     border-radius: 10px;
-    color: white;
     font-weight: 600;
 }
 
 .h-button a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .h-button:hover {
-    background-color: #ffffff;
+    background-color: darkviolet;
     text-decoration: none;
     cursor: pointer;
 }
 
 .h-button:hover a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .h-image {
@@ -119,9 +147,9 @@ body {
 
 .h-image img {
     width: 100%;
-    border: solid rgb(56, 0, 0) 8px;
-    border-radius: 10px;
-    box-shadow: 15px 20px 51px 0px rgba(20, 0, 20, 1);
+    border: solid #280e2a 2px;
+    border-radius: 12px;
+    box-shadow: 15px 20px 51px 0px rgb(49, 0, 49);
 }
 
 .slide {
@@ -153,44 +181,53 @@ body {
     width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
-    border: solid #28282B 6px;
+    border: solid #000000 4px;
+    border-radius: 12px;
     box-shadow: 8px 8px 30px 0px rgba(0, 0, 0, 0.75);
 }
 
 .photo p {
-    margin-top: 20px;
+    margin-top: 12px;
+    font-weight: 650;
+    font-size: 18px;
     text-align: center;
+    font-family: 'Metal', cursive;
 }
 
 .slide-show h3 {
     font-size: 36px;
     font-weight: 800;
-    color: #1f2937;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.72);
+    color: #000000;
+    font-family: 'Metal Mania', cursive;
 }
 
 .quote {
     display: flex;
     justify-content: center;
-    background-color: #E5E7EB;
+    background-color: #000000;
     padding: 100px 0;
 }
 
 .text {
+    font-family: 'Metal Mania', cursive;
     display: flex;
     flex-direction: column;
     width: 70%;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1f2937;
+    color: #cccccc;
     gap: 8px;
 }
 
 .text #name {
+    font-family: 'Metal', cursive;
     text-align: end;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
+    padding-top: 25px;
 }
 
 .pop {
