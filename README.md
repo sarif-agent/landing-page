@@ -1,4 +1,4 @@
-# Landing Page (css-roject - The Odin Project)
+# Landing Page (css-project)
 
 # Project Overview
 
