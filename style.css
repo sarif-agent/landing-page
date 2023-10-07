@@ -31,7 +31,7 @@ body {
 .header-logo {
     color: #880808;
     font-size: 24px;
-    text-shadow: 5px 5px 7px rgb(53, 53, 53);
+    text-shadow: 2px 2px 4px rgb(53, 53, 53);
     font-weight: 700;
     font-family: 'Metal Mania', cursive;
 }
@@ -39,7 +39,7 @@ body {
 
 .header-logo h1:hover {
     color: darkviolet;
-    text-shadow: 5px 5px 7px rgb(202, 202, 202);
+    text-shadow: 2px 2px 4px rgb(202, 202, 202);
 }
 
 .header-image {
@@ -102,12 +102,12 @@ body {
     font-family: 'Metal Mania', cursive;
     font-weight: 800;
     color: darkviolet;
-    text-shadow: 5px 5px 7px rgb(202, 202, 202);
+    text-shadow: 2px 2px 4px rgb(202, 202, 202);
 }
 
 .h-heading h2:hover {
     color: darkred;
-    text-shadow: 5px 5px 7px rgb(202, 202, 202);
+    text-shadow: 2px 2px 4px rgb(202, 202, 202);
 }
 
 .h-parag {
@@ -223,6 +223,12 @@ body {
 .text p:hover {
     color: darkred;
     text-shadow: 5px 5px 7px rgb(99, 0, 0);
+}
+
+.text #name:hover {
+    text-decoration: none;
+    color: #cccccc;
+    text-shadow: none;
 }
 
 .text #name {
