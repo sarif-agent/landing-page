@@ -1,4 +1,4 @@
-# landing-page (css-roject - The Odin Project)
+# Landing Page (css-roject - The Odin Project)
 
 # Project Overview
 
@@ -8,6 +8,7 @@ Hello! I've completed the CSS fundamentals, and this Landing Page project was my
 
 In this project, I also incorporated some small style enhancements, such as:
 
+- I created every photo/image used in this project with AI generator. Such as Midjourney.
 - Some custom font styles that goes perfectly with the theme.
 - Implemented hover effects that I hadn't learned in Odin Project yet.
 - Utilized border-radius to give elements a more polished appearance.
