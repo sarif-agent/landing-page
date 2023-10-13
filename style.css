@@ -17,14 +17,14 @@ body {
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .hero-style {
     display: flex;
     width: 80%;
     justify-content: space-between;
-    padding: 15px 0px;
+    padding: 10px 0px;
     align-items: center;
 }
 
@@ -335,5 +335,4 @@ body {
 
 .pop-img img {
     width: 40%;
-
 }
