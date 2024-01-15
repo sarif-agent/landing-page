@@ -26,6 +26,7 @@ body {
     justify-content: space-between;
     padding: 10px 0px;
     align-items: center;
+    max-width: 1600px;
 }
 
 
@@ -170,7 +171,7 @@ body {
     display: flex;
     align-items: center;
     flex-flow: column;
-    width: 70%;
+    max-width: 1440px;
 }
 
 .gallery {
@@ -220,6 +221,7 @@ body {
     font-family: 'Metal Mania', cursive;
     display: flex;
     flex-direction: column;
+    max-width: 1440px;
     width: 70%;
     font-size: 36px;
     font-style: italic;
@@ -262,6 +264,7 @@ body {
     padding: 50px 150px;
     border-radius: 12px;
     width: 80%;
+    max-width: 1440px;
 }
 
 .pop-t h4 {
@@ -307,6 +310,7 @@ body {
     padding: 15px 0;
     background-color: #000000;
     font-size: 18px;
+    max-width: 1440px;
 }
 
 .footer p {
